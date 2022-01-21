@@ -1,0 +1,44 @@
+.principal{
+height: 200px;
+width: 200px;
+display: grid;
+background-color: red;
+grid-template-columns: 10% repeat(3,.30%);
+grid-template-rows:  auto auto auto auto;
+align-content: center;
+justify-content: center;
+}
+.principal div{
+  text-align: center;
+  color: black;
+  border: solid 2px;
+}
+.uno
+{
+grid-column: 1/3;
+background-color: #0000FF;
+}
+.dos{
+ grid-column: 3/4;
+ grid-row: 1/3;
+ background-color: #4B0082;
+}
+.tres{
+
+  background-color: #FFFF00;
+}
+.cuatro{
+}
+.cinco{
+}
+.seis{  
+  grid-column: 4/5;
+  grid-row: 2/4;
+}
+.siete{
+
+}
+.ocho{
+  grid-column-start: 3;
+}
+}
